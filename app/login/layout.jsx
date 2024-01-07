@@ -1,6 +1,5 @@
-import PrelineScript from "./components/PrelineScript";
-import './globals.css'
-import NavBar from './components/navbar';
+import PrelineScript from "../components/PrelineScript";
+import '../globals.css';
 
 
 export const metadata = {
@@ -13,7 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <NavBar />      
         {children}
       </body>
       <PrelineScript />
