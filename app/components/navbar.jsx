@@ -19,8 +19,8 @@ const NavBar = () => {
               <Link className="text-lg text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/" aria-current="page">Home</Link>
               <Link className="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/about">About</Link>
               <Link className="text-lg text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/tickets">Ticket</Link>
-              <Link className="text-lg text-[#3B82F6] hover:text-gray-400 dark:text-[#3B82F6] dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/login">Login</Link>
-              <Link className="pl-5 pr-5 pt-1 pb-1 rounded-md text-lg text-white bg-[#3B82F6] hover:text-gray-400 dark:text-white dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/tickets">Sign up</Link>
+              <Link className="text-lg text-[#3B82F6] hover:text-gray-400 dark:text-[#3B82F6] dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/auth/login">Login</Link>
+              <Link className="pl-5 pr-5 pt-1 pb-1 rounded-md text-lg text-white bg-[#3B82F6] hover:text-gray-400 dark:text-white dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/auth/sign-up">Sign up</Link>
             </div>
           </div>
         </nav>

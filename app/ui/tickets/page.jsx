@@ -1,7 +1,9 @@
+import TicketList from './ticket-list';
+
 const Tickets = () => {
     return ( 
         <main>
-            <h2>Tickets</h2>
+            <TicketList />
         </main>
      );
 }
